@@ -1,0 +1,22 @@
+[
+  {
+    "number": "user1",
+    "password": "pass1",
+    "expectedMessage": "Epic sadface: Username and password do not match any user in this service"
+  },
+  {
+    "number": "user2",
+    "password": "pass2",
+    "expectedMessage": "Epic sadface: Username and password do not match any user in this service"
+  },
+  {
+    "number": "invalidUser",
+    "password": "pass3",
+    "expectedMessage": "Epic sadface: Username and password do not match any user in this service"
+  },
+  {
+    "number": "user4",
+    "password": "invalidPass",
+    "expectedMessage": "Epic sadface: Username and password do not match any user in this service"
+  }
+]
